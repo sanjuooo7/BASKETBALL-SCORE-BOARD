@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="basketball.css">
+  </head>
+  <body>
+
+    <table class="table1" border="0" cellspacing="60px" align="center">
+    <TR>  <div class="container">
+
+
+          <div class="home"><br><br><br><br>
+            <h1 align="center">BASKETBALL SCOREBOARD</h1>
+
+          <td>  <h3 class="homeheading"><center>HOME</center></h3>
+      <div class="hbox">  <center> <h2 id="h-points"><center>0</center></h2></center>  </div>
+          <div class="homebuttons">
+        <center>
+
+            <button type="button" onclick="hplus1()"  name="+1-btn" id="button1">+1</button>
+            <button type="button" onclick="hplus2()"  name="+2-btn" id="button2">+2</button>
+            <button type="button" onclick="hplus3()"  name="+3-btn" id="button3">+3</button><br>
+            <br>
+            <button type="button" onclick="hreset()" name="hclear" id="hclr">RESET</button>
+          </div>
+            </center>
+    </div>
+
+        </td>
+        <div class="guest">
+        <td>  <h3 class="guestheading"><center>GUEST</center></h3>
+      <div class="gbox">  <center> <h2 id="g-points"><center>0</center></h2></center>  </div>
+        <div class="guestbuttons">
+
+
+      <center>
+
+          <button type="button" onclick="gplus1()"  name="+1-btn" id="button4">+1</button>
+          <button type="button" onclick="gplus2()"  name="+2-btn" id="button5">+2</button>
+          <button type="button" onclick="gplus3()"  name="+3-btn" id="button6">+3</button><br>
+          <br>
+          <button type="button" onclick="greset()" name="gclear" id="gclr">RESET</button></div>
+          </center>
+  </div>
+        </td>
+    </tr>
+
+
+  </div>
+</div>
+    </table>
+
+    <script type="text/javascript" src="basketball.js"></script>
+
+  </body>
+</html>
